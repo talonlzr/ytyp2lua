@@ -202,7 +202,7 @@ internal static class LuaExporter
                 // Vectors
                 var bbMin = GV("bbMin");
                 var bbMax = GV("bbMax");
-                var bsCentre = GV("bsCentre"); // Keep it British to please Rockstar North! :D
+                var bsCentre = GV("bsCentre"); // Keep it UK English to please Rockstar North! :D
 
                 // Emit Lua table
                 sb.AppendLine("\t\t{");
